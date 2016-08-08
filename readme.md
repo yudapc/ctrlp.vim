@@ -86,6 +86,15 @@ Check `:help ctrlp-options` for other options.
 ## Installation
 Use your favorite method or check the homepage for a [quick installation guide][3].
 
+```
+$ cd ~/.vim
+$ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
+```
+
+Add on your `~/.vimrc`:
+`set runtimepath^=~/.vim/bundle/ctrlp.vim`
+
 [1]: http://i.imgur.com/yIynr.png
 [2]: https://github.com/kien/ctrlp.vim/tree/extensions
 [3]: http://kien.github.com/ctrlp.vim#installation
