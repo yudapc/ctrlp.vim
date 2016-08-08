@@ -1,6 +1,18 @@
 #**This project is unmaintained** 
 **You should use [this fork](https://github.com/ctrlpvim/ctrlp.vim) instead.**
 
+## Installation
+Use your favorite method or check the homepage for a [quick installation guide][3].
+
+```
+$ cd ~/.vim
+$ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
+```
+
+Add on your `~/.vimrc`:
+`set runtimepath^=~/.vim/bundle/ctrlp.vim`
+
 # ctrlp.vim
 Full path fuzzy __file__, __buffer__, __mru__, __tag__, __...__ finder for Vim.
 
@@ -82,18 +94,6 @@ Use `:diffthis` when opening multiple files to run `:diffthis` on the first 4 fi
     ```
 
 Check `:help ctrlp-options` for other options.
-
-## Installation
-Use your favorite method or check the homepage for a [quick installation guide][3].
-
-```
-$ cd ~/.vim
-$ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
-
-```
-
-Add on your `~/.vimrc`:
-`set runtimepath^=~/.vim/bundle/ctrlp.vim`
 
 [1]: http://i.imgur.com/yIynr.png
 [2]: https://github.com/kien/ctrlp.vim/tree/extensions
